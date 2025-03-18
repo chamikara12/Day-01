@@ -1,9 +1,8 @@
-//Create and print arry
-let array1 = [1,2,3,4,5];
-for(let i=0; i<array1.length; i++){
-    console.log(array1[i]);
-}
+//find the maximum array using forreach loop
+let maxArr =[10,8,9,4,5,6];
+let a=0;
+maxArr.forEach(n=>{
+    (a<n) ? a=n : n=n;
+})
 
-array1.forEach(element => {
-    console.log(element);
-});
+console.log("Maximum Value: "+ a);
